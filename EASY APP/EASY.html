@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>HEALTHCARE EASY TOOL</title>
+
+<!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- EASY Form CSS -->
+<link rel="stylesheet" href="EASY.css" type="text/css">
+
+<!-- Bootstrap  and slider CSS -->
+<link rel="stylesheet" href="bootstrap-slider.css" type="text/css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+crossorigin="anonymous">
+
+<!--Add a class of question to each question row-->
+<!--add a style block in head and set the .question height ;-->
+<style>
+.question { height:2.5rem; font-size:16px; }
+.top-space { margin-top:18px; }
+.bottom-space { margin-bottom:10px; }
+.card-title { font-size:28px; margin-left:6px; font-weight:bolder;; }
+.slider { width: 100% !important; }
+</style>
+
+</head>
+
+<body>
+  <div class="container">
+    <div id="easy">
+
+    <form action="mailto:your-email-goes-here@example.com" method="post" enctype="text/plain">
+
+  <div class="row card-logo">
+      <div class="col-2">
+        <img src="EASY.png" alt="EASY"></img>
+      </div>
+  </div>
+
+  <div class="row card-title">
+      <p>Ethics Assessment Survey Yield (EASY)</p>
+  </div>
+
+<!--Divider and Instruction for Form-->
+
+<div class="p-1 mb-1 bg-secondary"></div>
+
+<p>Click & drag the slider button to the closest fit:</p>
+
+<!--question 1-->
+    <div class="row question top-space">
+          <div class="col-2">
+            <label for="pain">1. Low Autonomy</label>
+          </div>
+              <div class="col-8">
+                <input id="pain" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+              </div>
+                  <div class="col-2">
+                    <label for="pain">High Autonomy</label>
+                  </div>
+      </div>
+
+<hr> <!--question 2-->
+    <div class="row question top-space">
+        <div class="col-2">
+          <label for="tiredness">
+            <span>2. Unfair</span><span class="d-block text-nowrap"><i><small>(Fairness=Equality & Justice)</small></i></span>
+          </label>
+        </div>
+        <div class="col-8">
+          <input id="tiredness" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+        </div>
+        <div class="col-2">
+          <label for="tiredness">Fair</label>
+        </div>
+    </div>
+
+<hr><!--question 3-->
+<div class="row question top-space">
+    <div class="col-2">
+      <label for="beneficience">
+        <span>3. Beneficience</span><span class="d-block text-nowrap"><i><small>No impact on "good for all"</small></i></span>
+      </label>
+    </div>
+    <div class="col-8">
+      <input id="beneficience" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+    </div>
+    <div class="col-2">
+      <label for="beneficience">Good for All</label>
+    </div>
+</div>
+
+<hr><!--question 4-->
+    <div class="row question top-space">
+        <div class="col-2">
+          <label for="nonmalfeasance">
+          <span>4. Non Malfeasance</span><span class="d-block text-nowrap"><i><small>May cause harm</small></i></span>
+        </label>
+        </div>
+        <div class="col-8">
+          <input id="nonmalfeasance" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+        </div>
+        <div class="col-2">
+          <label for="nonmalfeasance">Do No Harm</label>
+        </div>
+    </div>
+
+<hr><!--question 5-->
+<div class="row question top-space">
+    <div class="col-2">
+      <label for="impossibility">5. Impossibility</label>
+    </div>
+    <div class="col-8">
+      <input id="impossibility" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+    </div>
+    <div class="col-2">
+      <label for="impossibility">Always Possible</label>
+    </div>
+</div>
+
+<hr><!--question 6-->
+<div class="row question top-space">
+    <div class="col-2">
+      <label for="shortness of breath">6. Low Integrity</label>
+    </div>
+    <div class="col-8">
+      <input id="breath" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+    </div>
+    <div class="col-2">
+      <label for="shortness of breath">High Integrity</label>
+    </div>
+</div>
+
+
+<hr><!--question 7-->
+<div class="row question top-space">
+    <div class="col-2">
+      <label for="depression">
+        <span>1. Information Privacy</span><span class="d-block text-nowrap"><i><small>Violates Privacy</small></i></span>
+      </label>
+    </div>
+    <div class="col-8">
+      <input id="depression" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+    </div>
+    <div class="col-2">
+      <label for="depression">Protects Privacy</label>
+    </div>
+</div>
+
+
+<hr><!--question 8-->
+<div class="row question top-space">
+    <div class="col-2">
+      <label for="anxiety">
+        <span>2. Low Openness</span><span class="d-block text-nowrap"><i><small>Lacks Transparency</small></i></span>
+      </label>
+    </div>
+    <div class="col-8">
+      <input id="anxiety" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+    </div>
+    <div class="col-2">
+      <label for="anxiety">High Openness</label>
+    </div>
+</div>
+
+<hr><!--question 9-->
+<div class="row question top-space">
+    <div class="col-2">
+      <label for="wellbeing">
+        <span>3. Low Security</span><span class="d-block text-nowrap"><i><small>Confidential, Protected</small></i></span>
+      </label>
+    </div>
+    <div class="col-8">
+      <input id="wellbeing" class="esasSlider" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+    </div>
+    <div class="col-2">
+      <label for="wellbeing">High Security</label>
+    </div>
+</div>
+
+<hr><!--question 10-->
+
+    <div class="row question top-space">
+        <div class="col-2">
+          <label for="access">
+            <span>4. Low Access</span><span class="d-block text-nowrap"><i><small>(e.g. I can update my own data)</small></i></span>
+          </label>
+        </div>
+        <div class="col-8">
+          <input id="other" class="esasSlider" required="required" name="other" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+        </div>
+        <div class="col-2">
+          <label for="other-name">High Access</label> <!--PUT PROBLEM CAPTURED HERE-->
+        </div>
+    </div>
+
+
+    <hr><!--question 11-->
+
+    <div class="row question top-space">
+        <div class="col-2">
+          <label for="access">
+            <span>5. No Infringement</span><span class="d-block text-nowrap"><i><small>Doesn't impact population</small></i></span>
+          </label>
+        </div>
+        <div class="col-8">
+          <input id="other" class="esasSlider" required="required" name="other" type="text" data-slider-ticks="[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]" data-slider-ticks-snap-bounds="50" data-slider-ticks-labels='["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10"]'/>
+        </div>
+        <div class="col-2">
+          <label for="other-name">Legitimate Infringement</label> <!--PUT PROBLEM CAPTURED HERE-->
+        </div>
+    </div>
+<!--end of questions-->
+
+<div class="p-1 mb-1 bg-secondary top-space"></div>
+
+  <div class="card-footer">
+      <div class="row">
+          <div class="col-8">
+            <h5>Who is being assessed:</h5>
+
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="patient-name">Patient's Name</label>
+                    <input class="form-control" id="patient-name" type="text" name="patient-name" value="" required>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col">
+                  <div class="form-group">
+                    <label for="date-filled">Date</label>
+                    <input class="form-control" id="date-filled" type="date" name="date-filled" value="YYYY-MM-DD">
+                  </div>
+                </div>
+
+              <div class="col">
+                <div class="form-group">
+                  <label for="time-filled">Time</label>
+                  <input class="form-control" id="time-filled" type="time" name="time-filled" value="--:--">
+                </div>
+              </div>
+            </div>
+
+        </div> <!--end of the form-group-->
+
+          <div class="col-4">
+            <h5>Completed by:</h5><br>
+            <input id="completed-by-patient" type="radio" name="completed-by" value="patient">
+            <label for="completed-by-patient">Patient</label><br>
+            <input id="completed-by-family-caregiver" type="radio" name="completed-by" value="family-caregiver">
+            <label for="completed-by-family-caregiver">Family Caregiver</label><br>
+            <input id="completed-by-health-care-professional" type="radio" name="completed-by"
+                 value="health-care-professional">
+            <label for="completed-by-health-care-professional">Health Care Professional</label><br>
+            <input id="completed-by-caregiver-assisted" type="radio" name="completed-by" value="caregiver-assisted">
+            <label for="completed-by-caregiver-assisted">Caregiver Assisted</label>
+          </div>
+
+    </div> <!--end of this card-footer-->
+
+<hr>
+      <div class="card-footer">
+        <div class="row" bottom-space>
+          <div class="float-lg-right">
+            <input class="btn btn-primary btn-lg" type="submit" value="Submit">
+          </div>
+        </div>
+      </div>
+
+  </div> <!-- end of this card-footer-->
+
+  </form> <!-- end of the form-->
+  </div> <!-- end of esas class-->
+  </div> <!-- end of container class-->
+
+
+
+  <script src="moment.js"></script> <!-- moments-with-locales files used-->
+  <script>document.addEventListener("DOMContentLoaded", function(){});</script> <!--checks doc loaded-->
+  <script type="text/javascript">
+    document.getElementById('date-filled').value = moment().format('ll');
+  </script>
+  <script type="text/javascript">
+  document.getElementById('time-filled').value = moment().format('LT');
+  </script>
+
+  <script>document.getElementById("other-name").addEventListener("keyup", showMeTheEvent);</script>
+
+  <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"></script>
+  <script src="bootstrap-slider.js" type="text/javascript"></script>
+
+
+  <script>
+      var sliders = document.querySelectorAll('.esasSlider');
+      for (var i = 0; i < sliders.length; i++) {
+        new Slider(sliders[i], {
+          formatter: function (value) {
+            return 'Current value: ' + value;
+          }
+        });
+      }
+  </script>
+
+  <script>
+      function showMeTheEvent(event){
+          var other-name = document.createElement("other-name"), newContent, text;
+          console.log(event);
+          text = "Caught a "+event.type+" event on: ("+event.x+","+event.y+")";
+          newContent = document.createTextNode(text);
+          p.appendChild(newContent);
+          document.querySelector("#container").prepend(p);
+      }
+
+      document.querySelector("#container")
+              .addEventListener('keyup', showMeTheEvent);
+</script>
+
+
+</body>
+</html>

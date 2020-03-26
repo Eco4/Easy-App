@@ -1,0 +1,43 @@
+html,body {padding:0;margin:0;}
+
+h1 {
+  font-size: 8px, serif;
+}
+
+.center {
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+}
+
+.wrap {
+  font:8px Arial, san-serif;
+  padding-left: 50px;
+}
+
+hr {
+    width:100%;
+    height:1px;
+    background: #fff
+}
+.onerow {
+    display: inline-block;
+}
+
+body {
+  font:6px Arial, san-serif;
+}
+
+  .active {
+    color: #37adbf;
+  }
+
+  .selected::before {
+    background: #37adbf;
+  }
+
+  .active.selected::before {
+    display: none;
+  }
+}
